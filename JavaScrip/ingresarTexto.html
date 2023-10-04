@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript" src="js/miscript.js"></script>
+    </head>
+    <body>
+        <button onclick="ejemplo1()">Saludo</button><br><br>
+        <button onclick="ejemplo2()">Saludo Personalizado</button><br><br>
+        <button onclick="ejemplo3()">Suma de numeros</button><br><br>
+        <button onclick="ejemplo4()">Mostrar imagen</button><br><br>
+        <button onclick="ejemplo5()">Visitar pagina UTP</button><br>
+    </body>
+    <br>
+    <form >
+        <label >Ingrese nombre: </label>
+        <input type="text" name="nom" id="nombre">
+        <input type="button" onclick="ejemplo6()" name="aceptar" value="Aceptar">
+    </form>
+    <br>
+    <form >
+        <label>Habitualmente como se desplaza usted?</label><br>
+        <input type="radio" name="resp" value="Caminando">Caminando<br>
+        <input type="radio" name="resp" value="Bicicleta">Bicicleta<br>
+        <input type="radio" name="resp" value="Auto">Auto<br>
+        <input type="radio" name="resp" value="Microbus">Microbus<br>
+        <input type="radio" name="resp" value="Taxi">Taxi<br>
+        <input type="button" onclick="ejemplo7()" name="aceptar" value="Aceptar">
+    </form>
+    <br>
+    <form name ="producto" >
+        <label> Numero1</label>
+        <input type="text" name="nro1"><br><br>
+        <label >Numero2</label>
+        <input type="text" name="nro2"><br><br>
+        <label>Producto</label>
+        <input type="text" name="resultado"><br><br>
+        <input type="button" onclick="ejemplo8()" name="aceptar" value="Aceptar">
+    </form>
+    <form name="Form2">
+        <label>Ingrese nombre :</label>
+        <input type="text" id="nombre"><br>
+        <label>Genero : </label>
+            <input type="radio" name="genero" value="Masculino" checked>Masculino
+            <input type="radio" name="genero" value="Femenino" checked>Femenino <br>
+        <label>Grado de instruccion : </label>
+            <select id="instruccion">
+                <option>Primaria</option>
+                <option>Secundaria</option>
+                <option>Superior</option>
+            </select><br>
+        <label>Hobbies : </label><br>
+            <input type="checkbox" name="musica">Musica <br>
+            <input type="checkbox" name="lectura">Lectura <br>
+            <input type="checkbox" name="pelicula">Pelicula <br>
+            <input type="checkbox" name="deporte">Deporte <br>
+        <label>Datos ingresados :</label><br>
+        <textarea name="respuesta" cols="35" rows="6"></textarea><br>
+        <input type="button" value="Mostrar" onclick="ejem2()"><br><br>
+    </form>
+</html>
